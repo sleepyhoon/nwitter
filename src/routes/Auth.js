@@ -42,7 +42,7 @@ const Auth = () => {
         } = event;
         let provider;
         if(name==="google"){
-            provider = new GoogleAuthProvider(); // 이렇게 바꾸니까 잘 돌아간다...이유는 모르겠다.
+            provider = new GoogleAuthProvider(); // 이렇게 바꾸니까 잘 돌아간다...이유는 모르겠다. 문법이 바뀐듯
         }
         else if(name === "github"){
             provider = new GithubAuthProvider();
